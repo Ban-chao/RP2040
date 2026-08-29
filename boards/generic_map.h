@@ -40,12 +40,12 @@
 #define DIRECTION_PORT          GPIO_OUTPUT
 #define X_DIRECTION_PIN         5
 #define Y_DIRECTION_PIN         6
-#define Z_DIRECTION_PIN         7
+#define Z_DIRECTION_PIN         23
 #define DIRECTION_OUTMODE       GPIO_SHIFT5
 
 // Define stepper driver enable/disable output pin.
 #define ENABLE_PORT             GPIO_OUTPUT
-#define STEPPERS_ENABLE_PIN     8
+#define STEPPERS_ENABLE_PIN     7
 
 // Define homing/hard limit switch input pins.
 #define X_LIMIT_PIN             9
